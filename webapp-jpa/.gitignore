@@ -1,0 +1,6 @@
+# Ignorar archivos de configuración de IDE (ej. IntelliJ)
+.idea/
+
+# Ignorar archivos generados por Maven (carpeta target)
+target/
+
