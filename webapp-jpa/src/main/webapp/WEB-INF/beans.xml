@@ -5,13 +5,13 @@
 
     <interceptors>
         <class>
-            org.aguzman.apiservlet.webapp.header.services.interceptors.LoggingInterceptor
+            org.pablo.apiservlet.webapp.jpa.hibernate.services.interceptors.LoggingInterceptor
         </class>
         <class>
-            org.aguzman.apiservlet.webapp.header.services.interceptors.TransactionalInterceptor
+            org.pablo.apiservlet.webapp.jpa.hibernate.services.interceptors.TransactionalInterceptor
         </class>
         <class>
-            org.aguzman.apiservlet.webapp.header.services.interceptors.TransactionalJpaInterceptor
+            org.pablo.apiservlet.webapp.jpa.hibernate.services.interceptors.TransactionalJpaInterceptor
         </class>
     </interceptors>
 </beans>
